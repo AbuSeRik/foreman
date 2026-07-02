@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "foreman",
+  "description": "Role-based orchestration for Claude Code. The lead decides, the cheap models read and type.",
+  "owner": {
+    "name": "AbuSeRik",
+    "url": "https://github.com/AbuSeRik"
+  },
+  "plugins": [
+    {
+      "name": "foreman",
+      "description": "Turns your top-tier session into a foreman: it keeps decomposition, architecture and synthesis, delegating bulk reading to a cheap scout and mechanical edits to a cheap typist. Tiers are configurable, so it is not locked to one model.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

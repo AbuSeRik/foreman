@@ -1,0 +1,9 @@
+{
+  "name": "foreman",
+  "version": "0.1.0",
+  "description": "Role-based orchestration mode: the lead model decides, cheap models read and type. Model-agnostic — works on any top-tier session, not just one model family.",
+  "author": {
+    "name": "AbuSeRik",
+    "url": "https://github.com/AbuSeRik"
+  }
+}
