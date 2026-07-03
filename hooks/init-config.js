@@ -37,6 +37,7 @@ try {
   fs.writeFileSync(target, contents);
   console.log("foreman: created .claude/foreman.local.md with default tiers — edit to change model routing.");
 } catch (err) {
-  // Non-fatal: never block a session over a config seed.
+  // Non-fatal: never block a session over a config seed, but surface why it failed.
+  console.error("foreman: could not seed .claude/foreman.local.md:", err.message);
   process.exit(0);
 }
